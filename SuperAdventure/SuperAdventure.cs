@@ -10,11 +10,21 @@ using System.Windows.Forms;
 
 namespace SuperAdventure
 {
-    public partial class Form1 : Form
+    public partial class GameForm : Form
     {
-        public Form1()
+        public GameForm()
         {
             InitializeComponent();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+        
+        private void btnTest_Click(object sender, EventArgs e)
+        {
+            lblGold.Text = "123";
         }
     }
 }
